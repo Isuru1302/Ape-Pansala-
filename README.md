@@ -2,7 +2,8 @@
 
 [blog site](http://www.apepansala.tk/) about temples in sri lanka created by isk
 
-## Build Setup
+
+## Build Setup (Front-End)
 
 ``` bash
 # install dependencies
@@ -19,3 +20,13 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+## Build Setup (Back-End)
+``` bash
+#go to directory
+cd backend
+
+# serve with hot reload at localhost:8000
+php artisan serve
+
+For a detailed explanation on how things work, check out the Laravel [guide](https://laravel.com/docs/7.x).
