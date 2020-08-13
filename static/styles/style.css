@@ -1,0 +1,145 @@
+html{
+  scroll-behavior: smooth;
+  overflow-y: inherit!important;
+}
+
+body{
+  margin: 0!important;
+  padding: 0!important;
+  background: #ffffff;
+}
+
+a{
+  text-decoration: none!important;
+  color: inherit!important;
+}
+
+a:focus {
+  outline: 0!important;
+}
+
+button::-moz-focus-inner, a::-moz-focus-inner { border:0!important; }
+
+.mainbanner-img{
+  margin-top: -1.4em;
+  max-height : 35em;
+  min-width : 100%;
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.main-video h5{
+  color: lightgreen;
+  padding: 0.5em;
+  margin-bottom: 0em;
+  background: #1b1e21;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.main-video1>p,.main-video2>p,.main-video3>p{
+  padding: 0.5em;
+  margin-bottom: 0em;
+  background: #1b1e21;
+  color: lightgreen;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.content-main iframe{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.content-2-samples li{
+  list-style: none;
+  background: #1d68a7;
+}
+
+.content-2-samples img{
+  width: 6em;
+  height: 4em;
+}
+
+.content-2-samples li p{
+  color: #ffffff;
+}
+
+.content-2-section{
+  padding: 1em;
+
+  background: #ffffff;
+  margin-top: 1em;
+  border-radius: 5px;
+
+}
+
+
+
+.articles-area h4,.video-dhamma-talks h4{
+  font-style: italic;
+  font-family: 'URW Chancery L, cursive', serif;
+  color: #1aa3ff;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+}
+
+.articles-area h4:after,.video-dhamma-talks h4:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid #1aa3ff;
+  margin: auto;
+}
+
+.articles-area img{
+  width: 100%;
+  height: 10em;
+}
+
+.article-title h6{
+  font-size: 18px;
+  font-family: Trattatello, fantasy;
+  font-style: italic;
+  font-weight: bold;
+  color: #1d68a7;
+
+}
+
+.articles-area .article-title {
+  padding-top: 0.5em;
+  margin-top: -0.2em!important;
+  border:2px solid #1aa3ff;
+}
+
+.video-dhamma-talks .article-title {
+  background: darkred;
+  padding: 0.5em 0em 0.2em 0em;
+  margin-top: -0.4em!important;
+}
+
+.video-dhamma-talks .article-title h6{
+  color: #b3b300!important;
+}
+
+router-link{
+  text-decoration: none!important;
+}
+
+.nothingToShow{
+  width: 100%;
+  text-align: center!important;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+  .articles-area .article-title{
+    height: 5em!important;
+  }
+}
+
+
+
