@@ -28,5 +28,6 @@ cd backend
 
 # serve with hot reload at localhost:8000
 php artisan serve
+```
 
 For a detailed explanation on how things work, check out the Laravel [guide](https://laravel.com/docs/7.x).
