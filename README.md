@@ -1,6 +1,6 @@
 # blog
 
-> blog site about [temples](http:\\www.apepansala.tk\) in sri lanka created by isk
+[blog site](http:\\www.apepansala.tk\) about temples in sri lanka created by isk
 
 ## Build Setup
 
