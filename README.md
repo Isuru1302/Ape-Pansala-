@@ -1,6 +1,6 @@
-# blog
+# Ape Pansala
 
-[blog site](http://www.apepansala.tk/) about temples in sri lanka created by isk
+[blog site](http://www.apeepansala.tk/) about temples in sri lanka created by isk
 
 
 ## Build Setup (Front-End)
